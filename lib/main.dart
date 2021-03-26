@@ -21,7 +21,7 @@ class App extends StatelessWidget {
       initialRoute: '/mdc',
       routes: {
         '/': (context) => Home(),
-        '/about': (context) => Page(title: 'About'),
+        '/about': (context) => MyPage(title: 'About'),
         '/form': (context) => FormDemo(),
         '/mdc': (context) => MaterialComponents(),
       },
